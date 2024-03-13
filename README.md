@@ -1,6 +1,6 @@
 # HDD-Prediction
 
-This is the final solution created to support my dissertation which explores hard drive disk prediction based machine learning for lightweight devices. The purpose is to find the most optimal model for lightweight devices which has a good cross between the testing time and other metrics such as F1 score, recall, accuracy, etc.
+This is the final solution created to support my dissertation which explores hard drive disk prediction based machine learning for lightweight devices. The purpose is to find the most optimal model for lightweight devices which has a good cross between a fast testing time and other metrics such as F1 score, recall, accuracy, etc.
 The final solution was built using the LightGBM model.
 
 ![image](https://github.com/F2ncy/HDD-Prediction/assets/78828685/901e789c-b0f0-4c82-a062-4646dde1bfac)
