@@ -8,7 +8,7 @@ This is the final solution created to support my dissertation which explores har
 - Python
 
 ## Run With Docker
-#Image
+# Image
 
 Images support the following platforms:
 - linux/arm64
