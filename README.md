@@ -7,8 +7,8 @@ The final solution was built using the LightGBM model.
 ![image](https://github.com/F2ncy/HDD-Prediction/assets/78828685/901e789c-b0f0-4c82-a062-4646dde1bfac)
 
 ## Requirements
-- Docker
-- Python
+- [Docker](https://pimylifeup.com/raspberry-pi-docker/)
+- [Python](https://www.python.org/downloads/)
 
 ## Run With Docker
 ### Image
@@ -26,7 +26,7 @@ In order to get predictions you must define which device you want the model to p
 
 Define ``"device_path"`` to whichever drive you would like the prediction to be made on (e.g. ``/dev/sda``, ``sdb``, etc)
 
-## Further Information
+## Additional Information
 ``Prediction: 0`` - Result indicates the model thinks the drive will not fail
 
 ``Prediction: 1`` - Result indicates the model thinks the drive is highly likely to fail
