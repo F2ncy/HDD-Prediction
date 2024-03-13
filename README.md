@@ -26,6 +26,10 @@ In order to get predictions you must define which device you want the model to p
 
 Define ``"device_path"`` to whichever drive you would like the prediction to be made on (e.g. ``/dev/sda``, ``sdb``, etc)
 
+This requires the ``docker run`` command to be modified appropriately:
+
+- docker run --privileged -v hddpredict:/predictt -i --device=``/dev/sda`` -p 5001:5000 disk_failure_prediction:latest
+
 ## Additional Information
 ``Prediction: 0`` - Result indicates the model thinks the drive will not fail
 
