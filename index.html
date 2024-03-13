@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Drive Failure Prediction</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Hard Drive Failure Prediction</h1>
+    <button id="predict-button">Predict</button>
+    <p id="prediction-result"></p>
+
+    <script>
+    $(document).ready(function(){
+        $('#predict-button').on('click', function() {
+            $.ajax({
+                url: '/predict',
+                method: 'POST',
+                contentType: 'application/json',
+                success: function(data) {
+                    $('#prediction-result').text('Prediction: ' + data);
+                }
+            });
+        });
+    });
+    </script>
+</body>
+</html>
