@@ -9,6 +9,7 @@ This is the final solution created to support my dissertation which explores har
 
 ## Run With Docker
 ### Image
+[ghcr.io/f2ncy/disk_failure_prediction](https://ghcr.io/f2ncy/disk_failure_prediction)
 
 Support the following platforms:
 - linux/arm64
