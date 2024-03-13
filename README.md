@@ -7,4 +7,10 @@ This is the final solution created to support my dissertation which explores har
 - Docker
 - Python
 
-## Installation
+## Run With Docker
+#Image
+
+Images support the following platforms:
+- linux/arm64
+
+
