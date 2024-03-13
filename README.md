@@ -31,8 +31,8 @@ This requires the ``docker run`` command to be modified appropriately:
 - docker run --privileged -v hddpredict:/predictt -i --device=``/dev/sda`` -p 5001:5000 disk_failure_prediction:latest
 
 ## Additional Information
-``Prediction: 0`` - Result indicates the model thinks the drive will not fail
+``Prediction: 0`` - Indicates the model thinks the drive will not fail
 
-``Prediction: 1`` - Result indicates the model thinks the drive is highly likely to fail
+``Prediction: 1`` - Indicates the model thinks the drive is highly likely to fail
 
 Works with all types of drives including ATA, SATA, NVME, etc.
