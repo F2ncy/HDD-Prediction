@@ -1,4 +1,4 @@
-# Hard Drive Failure Prediction
+# Lightweight Hard Drive Failure Prediction
 
 This is the final solution created to support my dissertation which explores hard drive disk prediction based machine learning for lightweight devices. The purpose is to find the most optimal model for lightweight devices which has a good cross between a fast testing time and other metrics such as F1 score, recall, accuracy, etc.
 
